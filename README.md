@@ -1,6 +1,6 @@
 # npmtest-ember-infinity
 
-#### test coverage for  [ember-infinity (v0.2.8)](https://github.com/hhff/ember-infinity#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-infinity.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-infinity) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-infinity.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-infinity)
+#### basic test coverage for  [ember-infinity (v0.2.8)](https://github.com/hhff/ember-infinity#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-infinity.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-infinity) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-infinity.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-infinity)
 
 #### Simple, flexible infinite scroll for Ember CLI Apps.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-infinity/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-infinity/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-infinity/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-infinity/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-infinity/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-infinity/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-infinity/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-infinity/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-infinity/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-infinity/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-infinity/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-infinity/build/coverage.html/index.html)
 
@@ -107,7 +107,8 @@
         "start": "ember server",
         "test": "ember try:testall"
     },
-    "version": "0.2.8"
+    "version": "0.2.8",
+    "bin": {}
 }
 ```
 
